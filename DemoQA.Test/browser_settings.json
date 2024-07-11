@@ -1,0 +1,25 @@
+{
+    "Browsers": {
+        "Chrome": {
+            "Headless": false,
+            "Arguments": [
+                "--disable-gpu",
+                "--start-fullscreen"
+            ]
+        },
+        "Firefox": {
+            "Headless": false,
+            "Arguments": [
+                "--width=1920",
+                "--height=1080"
+            ]
+        },
+        "Edge": {
+            "Headless": false,
+            "Arguments": [
+                "--headless",
+                "--disable-gpu"
+            ]
+        }
+    }
+}
